@@ -1,0 +1,18 @@
+{
+  "_comment": "Merge into your openclaw.json under mcp.servers. Replace the key with YOUR own — do NOT commit it. Prefer `openclaw mcp add` (see README).",
+  "mcp": {
+    "servers": {
+      "zurich-azure": {
+        "url": "https://zurich-mcp-server.ambitiousdesert-67d6610f.southeastasia.azurecontainerapps.io/mcp",
+        "transport": "streamable-http",
+        "headers": {
+          "x-api-key": "REPLACE_WITH_YOUR_KEY"
+        },
+        "timeout": 60,
+        "toolFilter": {
+          "exclude": ["*"]
+        }
+      }
+    }
+  }
+}

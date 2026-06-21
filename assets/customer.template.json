@@ -1,0 +1,20 @@
+{
+  "breed": "Chihuahua",
+  "tier": "Premium",
+  "date_of_birth": "2016-06-21",
+  "dog_name": "Bella",
+  "dog_gender": "female",
+  "first_name": "",
+  "last_name": "",
+  "owner_gender": "",
+  "owner_date_of_birth": "",
+  "email": "",
+  "phone_number": "+49",
+  "iban": "DE",
+  "street_name": "",
+  "house_number": "",
+  "postcode": "",
+  "city": "",
+  "billing_day": "1",
+  "start_date": ""
+}

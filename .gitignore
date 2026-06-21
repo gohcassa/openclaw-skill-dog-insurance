@@ -1,0 +1,11 @@
+# Never commit secrets or real customer data
+.env
+*.key
+*secret*
+customer.json
+customer.*.json
+!assets/customer.template.json
+
+# Python
+__pycache__/
+*.pyc
