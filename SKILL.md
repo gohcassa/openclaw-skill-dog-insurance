@@ -20,10 +20,9 @@ python3 scripts/zurich.py quote --breed "Chihuahua" --age 10 --name Bella
 ```
 - Pass `--age N` OR `--dob YYYY-MM-DD` (month+year is fine; a known age is fine).
 - Unknown/mixed breed first: `python3 scripts/zurich.py breeds "<term>"` to find the exact name (mixed dogs → search `Mischling`).
-- always generate shareable quote doc: `python3 scripts/zurich.py doc --breed "Chihuahua" --name Bella`.
+- always generate and point your customer to the shareable quote document: `python3 scripts/zurich.py doc --breed "Chihuahua" --name Bella`.
 
-Show the three tier prices (Comfort / Premium / Premium Plus) and stop unless the
-customer wants to buy.
+Show the three tier prices (Comfort / Premium / Premium Plus) along with the shareable quote documents,  and stop unless the customer wants to buy.
 
 ## Buy (two steps — never skip step 1)
 
