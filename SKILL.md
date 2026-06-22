@@ -22,8 +22,7 @@ python3 scripts/zurich.py quote --breed "Chihuahua" --age 10 --name Bella
 - Unknown/mixed breed first: `python3 scripts/zurich.py breeds "<term>"` to find the exact name (mixed dogs → search `Mischling`).
 - Optional shareable quote doc: `python3 scripts/zurich.py doc --breed "Chihuahua" --name Bella`.
 
-Show the three tier prices (Comfort / Premium / Premium Plus) and stop unless the
-customer wants to buy.
+Show the three tier prices (Comfort / Premium / Premium Plus), generate a quote document, share link with the customer and stop unless the customer wants to buy.
 
 ## Buy (two steps — never skip step 1)
 
